@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4A6D4-2783-4032-B8ED-1E8C3E6E9856}|..\\AppointmentBooking.Models\\AppointmentBooking.Models.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.models\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4A6D4-2783-4032-B8ED-1E8C3E6E9856}|..\\AppointmentBooking.Models\\AppointmentBooking.Models.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.models\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D3931A-6EAC-420E-999E-00FF31E23169}|..\\AppointmentBooking.DAL\\AppointmentBooking.DAL.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.dal\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D3931A-6EAC-420E-999E-00FF31E23169}|..\\AppointmentBooking.DAL\\AppointmentBooking.DAL.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.dal\\repositories\\usermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.api\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|solutionrelative:controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.api\\helpers\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|solutionrelative:helpers\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F7976E-62D0-49A2-90F8-61D3D03A494D}|..\\AppointmentBooking.Business\\AppointmentBooking.Business.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.business\\service\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F7976E-62D0-49A2-90F8-61D3D03A494D}|..\\AppointmentBooking.Business\\AppointmentBooking.Business.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.business\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D3931A-6EAC-420E-999E-00FF31E23169}|..\\AppointmentBooking.DAL\\AppointmentBooking.DAL.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.dal\\contract\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F7976E-62D0-49A2-90F8-61D3D03A494D}|..\\AppointmentBooking.Business\\AppointmentBooking.Business.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.business\\contract\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4A6D4-2783-4032-B8ED-1E8C3E6E9856}|..\\AppointmentBooking.Models\\AppointmentBooking.Models.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.models\\models\\appointmentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.api\\migrations\\20250807183528_spgetstaffuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|solutionrelative:migrations\\20250807183528_spgetstaffuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D3931A-6EAC-420E-999E-00FF31E23169}|..\\AppointmentBooking.DAL\\AppointmentBooking.DAL.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.dal\\contract\\iusermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF10E-2D50-45C6-AB06-583964DE1BAE}|AppointmentBooking.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4A6D4-2783-4032-B8ED-1E8C3E6E9856}|..\\AppointmentBooking.Models\\AppointmentBooking.Models.csproj|d:\\milan\\opendoorgroup\\backend\\appointmentbooking.models\\models\\spgetstaffuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 25,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:45:21.741Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Business\\Service\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.Business\\Service\\AppointmentService.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Business\\Service\\AppointmentService.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.Business\\Service\\AppointmentService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAApwBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:46:26.256Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Business\\Contract\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.Business\\Contract\\IAppointmentService.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Business\\Contract\\IAppointmentService.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.Business\\Contract\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:45:42.828Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.DAL\\Repositories\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.DAL\\Repositories\\AppointmentRepository.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.DAL\\Repositories\\AppointmentRepository.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.DAL\\Repositories\\AppointmentRepository.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAkwHcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T20:17:45.41Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T01:40:20.886Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Models\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.Models\\Models\\Appointment.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Models\\Models\\Appointment.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.Models\\Models\\Appointment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T00:50:07.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserMasterRepository.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.DAL\\Repositories\\UserMasterRepository.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.DAL\\Repositories\\UserMasterRepository.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.DAL\\Repositories\\UserMasterRepository.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.DAL\\Repositories\\UserMasterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T21:05:01.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Models\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.Models\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Models\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.Models\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T20:26:40.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Helpers\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Helpers\\DbInitializer.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Helpers\\DbInitializer.cs",
+              "RelativeToolTip": "Helpers\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:04:18.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppointmentDetails.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Models\\Models\\AppointmentDetails.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.Models\\Models\\AppointmentDetails.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Models\\Models\\AppointmentDetails.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.Models\\Models\\AppointmentDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T01:16:13.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Business\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.Business\\Service\\AuthService.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Business\\Service\\AuthService.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.Business\\Service\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:47:57.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAppointmentRepository.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.DAL\\Contract\\IAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.DAL\\Contract\\IAppointmentRepository.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.DAL\\Contract\\IAppointmentRepository.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.DAL\\Contract\\IAppointmentRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:47:15.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250807183528_SPGetStaffUser.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Migrations\\20250807183528_SPGetStaffUser.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250807183528_SPGetStaffUser.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Migrations\\20250807183528_SPGetStaffUser.cs",
+              "RelativeToolTip": "Migrations\\20250807183528_SPGetStaffUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T01:28:30.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserMasterRepository.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.DAL\\Contract\\IUserMasterRepository.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.DAL\\Contract\\IUserMasterRepository.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.DAL\\Contract\\IUserMasterRepository.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.DAL\\Contract\\IUserMasterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T20:17:18.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T19:34:18.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SPGetStaffUser.cs",
+              "DocumentMoniker": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Models\\Models\\SPGetStaffUser.cs",
+              "RelativeDocumentMoniker": "..\\AppointmentBooking.Models\\Models\\SPGetStaffUser.cs",
+              "ToolTip": "D:\\Milan\\OpenDoorGroup\\Backend\\AppointmentBooking.Models\\Models\\SPGetStaffUser.cs",
+              "RelativeToolTip": "..\\AppointmentBooking.Models\\Models\\SPGetStaffUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T19:11:54.025Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

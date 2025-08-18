@@ -1,0 +1,15 @@
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\AppointmentBooking.DAL.csproj.AssemblyReference.cache
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\AppointmentBooking.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\AppointmentBooking.DAL.AssemblyInfoInputs.cache
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\AppointmentBooking.DAL.AssemblyInfo.cs
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\AppointmentBooking.DAL.csproj.CoreCompileInputs.cache
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\bin\Debug\net8.0\AppointmentBooking.DAL.deps.json
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\bin\Debug\net8.0\AppointmentBooking.DAL.dll
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\bin\Debug\net8.0\AppointmentBooking.DAL.pdb
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\bin\Debug\net8.0\AppointmentBooking.Models.dll
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\bin\Debug\net8.0\AppointmentBooking.Models.pdb
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\Appointm.388C9232.Up2Date
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\AppointmentBooking.DAL.dll
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\refint\AppointmentBooking.DAL.dll
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\AppointmentBooking.DAL.pdb
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.DAL\obj\Debug\net8.0\ref\AppointmentBooking.DAL.dll

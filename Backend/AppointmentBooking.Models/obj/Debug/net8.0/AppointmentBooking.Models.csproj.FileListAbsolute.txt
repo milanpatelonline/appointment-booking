@@ -1,0 +1,14 @@
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\bin\Debug\net8.0\AppointmentBooking.Models.deps.json
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\bin\Debug\net8.0\AppointmentBooking.Models.runtimeconfig.json
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\bin\Debug\net8.0\AppointmentBooking.Models.dll
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\bin\Debug\net8.0\AppointmentBooking.Models.pdb
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\AppointmentBooking.Models.csproj.AssemblyReference.cache
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\AppointmentBooking.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\AppointmentBooking.Models.AssemblyInfoInputs.cache
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\AppointmentBooking.Models.AssemblyInfo.cs
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\AppointmentBooking.Models.csproj.CoreCompileInputs.cache
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\AppointmentBooking.Models.dll
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\refint\AppointmentBooking.Models.dll
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\AppointmentBooking.Models.pdb
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\AppointmentBooking.Models.genruntimeconfig.cache
+D:\Milan\OpenDoorGroup\Backend\AppointmentBooking.Models\obj\Debug\net8.0\ref\AppointmentBooking.Models.dll
