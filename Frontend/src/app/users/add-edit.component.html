@@ -1,0 +1,51 @@
+﻿<h1>{{title}}</h1>
+<form *ngIf="!loading" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="row">
+        <div class="mb-3 col">
+            <label class="form-label">First Name</label>
+            <input type="text" formControlName="firstName" class="form-control"  [readonly]="true"
+                [ngClass]="{ 'is-invalid': submitted && f.name.errors }" />
+            <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+                <div *ngIf="f.name.errors.required">Name is required</div>
+            </div>
+        </div>
+        <div class="mb-3 col">
+            <label class="form-label">Last Name</label>
+            <input [disabled]="false" type="text" formControlName="lastName" class="form-control" [readonly]="true"
+                [ngClass]="{ 'is-invalid': submitted && f.address.errors }" />
+            <div *ngIf="submitted && f.address.errors" class="invalid-feedback">
+                <div *ngIf="f.address.errors.required">Address is required</div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="mb-3 col">
+            <label class="form-label">Email</label>
+            <input type="text" formControlName="email" class="form-control" [readonly]="true"
+                [ngClass]="{ 'is-invalid': submitted && f.phone.errors }" />
+            <div *ngIf="submitted && f.phone.errors" class="invalid-feedback">
+                <div *ngIf="f.phone.errors.required">Phone is required</div>
+            </div>
+        </div>
+        <div class="mb-3 col">           
+                <label class="form-label">User Role</label>
+                <select class="form-control" formControlName="roleId">
+                    <option class="form-control" *ngFor="let userRole of userRoles" [ngValue]="userRole.id">
+                        {{ userRole.name }}
+                    </option>
+                </select>
+        </div>
+    </div>
+
+
+    <div class="mb-3">
+        <button [disabled]="submitting" class="btn btn-primary">
+            <span *ngIf="submitting" class="spinner-border spinner-border-sm me-1"></span>
+            Save
+        </button>
+        <a routerLink="/users" class="btn btn-link">Cancel</a>
+    </div>
+</form>
+<div *ngIf="loading" class="text-center m-5">
+    <span class="spinner-border spinner-border-lg align-center"></span>
+</div>

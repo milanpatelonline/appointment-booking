@@ -1,0 +1,45 @@
+<div class="p-4">
+    <div class="container">
+        <h1>Appointment List</h1>        
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Appointment ID</th>
+                    <!-- <th>AssinedTo</th> -->
+                    <th>AssinedTo Staff Member</th>
+                    <th>Appointment DateTime</th>
+                    <th>Customer Name</th>
+                    <th>Details</th>
+                    <th *ngIf="userType==='Admin'">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let appointment of appointments">
+                    <td>{{appointment.id}}</td>
+                    <td>{{appointment.staffMemberName}}</td>
+                    <!-- <td>{{appointment.appointmentDateTime | date:'yyyy-MM-dd h:mm a' }}</td>-->
+                    <td>{{getFormattedDate(appointment.appointmentDateTime)}}</td> 
+                    <!-- <td>{{ appointment.appointmentDateTime | formatDate }}</td> -->
+                    <td>{{appointment.customerName}}</td>
+                    <td>{{appointment.details}}</td>
+
+                    <td style="white-space: nowrap">
+                        <!-- <a routerLink="editAppointment" *ngIf="userType==='Admin'"
+                            class="btn btn-sm btn-primary me-1">Edit </a>                     -->
+                <button (click)="editAppointment(appointment)" *ngIf="userType==='Admin'" class="btn btn-sm btn-primary me-1">
+                Edit</button>
+                        <button (click)="deleteUser(appointment.id)" *ngIf="userType==='Admin'"
+                        class="btn btn-sm btn-danger btn-delete-user me-1" >Delete
+                            </button>
+                        
+                    </td>
+                </tr>
+                <tr *ngIf="!appointments">
+                    <td colspan="4" class="text-center">
+                        <span class="spinner-border spinner-border-lg align-center"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

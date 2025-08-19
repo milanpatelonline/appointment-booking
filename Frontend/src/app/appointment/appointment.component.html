@@ -1,0 +1,63 @@
+<div class="p-4">
+    <div class="container">
+
+
+        <h1>Book an Appointment</h1>
+        <form *ngIf="!loading" [formGroup]="form" (ngSubmit)="onSubmit()">
+
+            <div class="row">
+                <div class="mb-3 col">
+                    <label class="form-label">Staff Member:</label>
+                    <select class="form-control" id="staff" name="staffId" formControlName="assignedToId" required>
+                        <option *ngFor="let staff of staffMembers" [ngValue]="staff.id">{{ staff.firstName }} {{
+                            staff.lastName }}</option>
+                    </select>
+                    <!-- <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+                <div *ngIf="f.name.errors.required">Name is required</div>
+            </div> -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col">
+                    <label class="form-label">Date</label>
+                    <input type="date" class="form-control" formControlName="appointmentDate" />
+                    <!-- <div *ngIf="submitted && f.address.errors" class="invalid-feedback">
+                <div *ngIf="f.address.errors.required">Address is required</div>
+            </div> -->
+                </div>
+                <div class="mb-3 col">
+                    <label class="form-label">Time</label>
+                    <input type="time" class="form-control" formControlName="appointmentTime" />
+                    <!-- <div *ngIf="submitted && f.address.errors" class="invalid-feedback">
+                <div *ngIf="f.address.errors.required">Address is required</div>
+            </div> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col">
+                    <label class="form-label">Detail</label>
+                    <input type="text" class="form-control" formControlName="details" />
+                    <!-- <div *ngIf="submitted && f.address.errors" class="invalid-feedback">
+                <div *ngIf="f.address.errors.required">Address is required</div>
+            </div> -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col">
+                    <button type="submit" [disabled]="submitting" class="btn btn-primary">
+                        <span *ngIf="submitting" class="spinner-border spinner-border-sm me-1"></span>
+                        Book Appointment</button>
+                </div>
+            </div>
+        </form>
+
+        <p *ngIf="bookingSuccess">Appointment booked successfully!</p>
+        <p *ngIf="bookingError">{{ bookingError }}</p>
+
+        <div *ngIf="loading" class="text-center m-5">
+            <span class="spinner-border spinner-border-lg align-center"></span>
+        </div>
+    </div>
+</div>

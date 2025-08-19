@@ -1,0 +1,54 @@
+<div class="p-4">
+    <div class="container">
+
+        <h1>Update an Appointment</h1>
+        <form *ngIf="!loading" [formGroup]="form" (ngSubmit)="onSubmit()">
+
+            <div class="row">
+                <div class="mb-3 col">
+                    <label class="form-label">Staff Member:</label>
+                    <select class="form-control" id="staff" name="staffId" formControlName="assignedToId" required>
+                        <option *ngFor="let staff of staffMembers" [ngValue]="staff.id">{{ staff.firstName }} {{
+                            staff.lastName }}</option>
+                    </select>                    
+                </div>
+                <div class="mb-3 col">
+                    <label class="form-label">Customer Name:</label>
+                    <input type="text" class="form-control" formControlName="customerName" readonly/>                         
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col">
+                    <label class="form-label">Date</label>
+                    <input type="date" class="form-control" formControlName="appointmentDate" />                    
+                </div>
+                <div class="mb-3 col">
+                    <label class="form-label">Time</label>
+                    <input type="time" class="form-control" formControlName="appointmentTime" />                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col">
+                    <label class="form-label">Detail</label>
+                    <input type="text" class="form-control" formControlName="details" />                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col">
+                    <button type="submit" [disabled]="submitting" class="btn btn-primary">
+                        <span *ngIf="submitting" class="spinner-border spinner-border-sm me-1"></span>
+                        Update</button>
+                </div>
+            </div>
+        </form>
+
+        <p *ngIf="bookingSuccess">Appointment updated successfully!</p>
+        <p *ngIf="bookingError">{{ bookingError }}</p>
+
+        <div *ngIf="loading" class="text-center m-5">
+            <span class="spinner-border spinner-border-lg align-center"></span>
+        </div>
+    </div>
+</div>
